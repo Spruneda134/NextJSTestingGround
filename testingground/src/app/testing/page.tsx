@@ -13,7 +13,8 @@ export default function Page() {
       </header>
 
       {/* 🔴 Login Section */}
-      <section className="relative w-full bg-[#001f3f] text-white py-30 overflow-hidden">
+      <section className="relative w-full text-black py-30 overflow-hidden bg-white bg-[url('/images/bg-pattern.png')] bg-no-repeat bg-cover bg-center">
+
         {/* Background image covering the right half */}
         <div className="hidden md:block absolute inset-y-0 left-1/2 w-1/2 bg-[url('/images/header.png')] bg-no-repeat bg-cover bg-left"></div>
 

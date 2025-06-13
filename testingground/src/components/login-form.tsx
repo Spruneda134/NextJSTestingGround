@@ -22,7 +22,7 @@ export function LoginForm({
               />
             </div>
 
-            <Button type="submit" className="w-full">
+            <Button variant="white" type="submit" className="w-full">
               Sign In
             </Button>
           </div>
